@@ -124,7 +124,7 @@ Every internet host has a 32-bits IP address and a name that is readable for hum
   - is the default name server
   - DNS queries are sent to local DNS, local DNS will ask the hierarchy
 
-![server hierarchy](https://github.com/wing-cheng/COMP3331/blob/main/img/typora-icon.png)
+![server hierarchy](https://github.com/wing-cheng/COMP3331/blob/main/images/image-20210507132152255.png)
 
 ### Example
 
@@ -295,7 +295,7 @@ total = 2 RTT + file transmission time
 
 ### Scenario: *A* sends a mail to *B*
 
-![](/home/kiki/Pictures/Screenshot from 2021-05-21 16-00-53.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/Screenshot%20from%202021-05-21%2016-00-53.png)
 
 # Transport Layer
 
@@ -476,7 +476,7 @@ the 2nd fragment has 200 bytes of data, 400 / 8 = 50, 900 + 50 = 950. So it has 
 
 **A small campus is assigned a large address block 12.1.0.0/17, but is only using a portion of these addresses (in 12.1.1.0/24) to number its computers. The campus ueses a single Internet Service Provider (ISP) to reach the rest of the internet. The pic below shows the forwarding tables on the ISP's router (on the left) and the campus edge (on the right).**
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/截圖 2021-05-05 下午9.11.06.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/%E6%88%AA%E5%9C%96%202021-05-05%20%E4%B8%8B%E5%8D%889.11.06.png)
 
 **E.g. the ISP forwards all packets with destination addresses in 12.1.0.0/17 to link #2 toward the campus edge router. Both routers include a default forwarding entry (i.e. 0.0.0.0/0) that can match any destination IP address.**
 
@@ -502,7 +502,7 @@ the 2nd fragment has 200 bytes of data, 400 / 8 = 50, 900 + 50 = 950. So it has 
 
 **Assume that the forwarding table of a router is as follows:**
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/截圖 2021-05-05 下午9.21.24.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/%E6%88%AA%E5%9C%96%202021-05-05%20%E4%B8%8B%E5%8D%889.21.24.png)
 
 1. Which interface would a datagram with destination IP address 128.96.171.92 be forwarded to?
 
@@ -522,7 +522,7 @@ the 2nd fragment has 200 bytes of data, 400 / 8 = 50, 900 + 50 = 950. So it has 
 
 Consider the following network topology comparising 6 routers labelled A through F. The link costs (in both direction) are shown
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/截圖 2021-05-05 下午10.42.47.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/%E6%88%AA%E5%9C%96%202021-05-05%20%E4%B8%8B%E5%8D%8810.42.47.png)
 
 1. Show the operation of Dijkstra's link-state algorithm to compute routes from node A to all destination.
 
@@ -535,7 +535,7 @@ Consider the following network topology comparising 6 routers labelled A through
 
 2. Based on your execution of Dijkstra's algorithm in the abve question, complete the forwarding table for nodes.
 
-   ![](/home/kiki/cs3331/OneDrive-2021-06-04/截圖 2021-05-05 下午11.02.59.png)
+   ![](https://github.com/wing-cheng/COMP3331/blob/main/images/%E6%88%AA%E5%9C%96%202021-05-05%20%E4%B8%8B%E5%8D%8811.02.59.png)
 
    | Destination | Outgoing Link |
    | ----------- | ------------- |
@@ -566,7 +566,7 @@ Consider the following network topology comparising 6 routers labelled A through
 
 **Consider the network shown in the figure below. Assume that al switch tables are empty at the start.**
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/image-20210506131720433.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/image-20210506131720433.png)
 
 1. Assume that host A sends a frame to host F. Indicate all links in the network that this frame is transmitted on and explain why.
 
@@ -586,7 +586,7 @@ Consider the following network topology comparising 6 routers labelled A through
 
 **Consider the network shown below**
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/image-20210506133149397.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/image-20210506133149397.png)
 
 1. Assign an IP address to the leftmost interface of the router, given that the network part of the IP address is 24 bits (i.e. the network is using a /24 addresses block).
 
@@ -614,7 +614,7 @@ Consider the following network topology comparising 6 routers labelled A through
 
 **Suppose 2 hosts have a long-lived TCP session over a path with a 100 msec round-trip time (RTT). Then, a link fails, causing the traffic to flow over a longer path with a 500 msec RTT. This scenario is depicted in the figure below. The original path is the straight path at the bottom. The new path is at the top**
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/image-20210506140747288.png)
+![](https://github.com/wing-cheng/COMP3331/blob/main/images/image-20210506140747288.png)
 
 1. Suppose the router on the left recognises the failure immediately and starts forwarding data packets over the new path, without losing any packets. Assume that the router on the right recognises the failure immediately and starts directing ACKs over the new path, without losing any ACK packets. Why might the TCP sender retransmit some of the data packets anyway?
 
