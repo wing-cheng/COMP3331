@@ -124,7 +124,7 @@ Every internet host has a 32-bits IP address and a name that is readable for hum
   - is the default name server
   - DNS queries are sent to local DNS, local DNS will ask the hierarchy
 
-![](/home/kiki/cs3331/OneDrive-2021-06-04/image-20210507132152255.png)
+![server hierarchy](https://github.com/wing-cheng/COMP3331/blob/main/img/typora-icon.png)
 
 ### Example
 
